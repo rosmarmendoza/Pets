@@ -1,0 +1,333 @@
+/*  Selector universal para margenes y padding*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header{
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  ul{
+    display: flex;
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  /*Top Header working with div*/
+  .discount{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: black;
+    color: white;
+    height: 20px;
+    font-size: 10px;
+    align-items: center;  
+  }
+  .discount li a{
+    color: #fff;
+    margin: 0 5px;
+  } 
+  nav li a{
+    color: #fff;
+    margin: 0 20px;  
+  }
+  
+  .small-pawprint{
+    width: 15px;
+    height: 14px;
+  }
+  /*Nav atributtes Header*/
+  .header__nav{
+    background-color: #F0A83E;
+    height: 68.5px;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    font-size: 13px;
+    box-sizing: border-box;
+  }
+    .form__nav{
+      text-align: center;
+      margin-top: 156px;
+      margin-bottom: 107px;
+      margin-right: 11px;
+    }
+  
+  /* banner */
+  .center-nav {
+  display: flex;
+  justify-content: end;
+  background-image: url("../images/bowl-and-pet-daities.png");/*import image and rules after for center*/
+  height: 409px;
+  width: 1024px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  }
+  .form__input{
+    max-width: 365px;
+    height: 40px;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #3C2313;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .form__title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.7px;
+    color: #3C2313;
+    margin: 12px 0;
+  }
+  .form__btn{
+    width: 141px;
+    height: 49px;
+    border-radius: 5px;
+    border: none;
+    background: #F0A83E;
+    color: #fff;
+  }
+  /* card */
+  .product{
+    width: 1024px;
+    margin: 0 auto;
+    
+  }
+  .prduct__container{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 49px;
+  }
+  
+  h1 {
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 46.8px;
+   color: #3C2313;
+   margin-top: 5px;
+  }
+  .product ul{
+    margin-top: 20px;
+    display: inline-flex;
+  }
+  .product li{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.5px;
+    color: #666666;
+    margin: 0 15.5px;
+  }
+  .card__container{
+    display: flex;
+    justify-content: center;
+  }
+  article{
+    max-width: 265px;
+    height: 312px;
+    background: #FBFAF6;
+    text-align: center;
+    margin: 0 10px;
+  }
+  article h3{
+    font-size:  15px;
+    font-weight: 700;
+    line-height: 17.5px;
+    color: #3C2313 ;
+  }
+  article p{
+    font-size:  15px;
+    font-weight: 700;
+    line-height: 17.5px;
+    color: #F0A83E ;
+    margin-bottom: 6px;
+    justify-content: space-around;
+  }
+  /*Form section*/
+  
+  .information__form {
+    width: 340px;
+    margin: 0 auto;
+    margin-top: 82px;
+    margin-bottom: 75px; 
+  
+  }
+  
+  .information__form h2{
+    color: #3C2313;
+    font-size: 25px;
+    text-shadow: black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around; 
+  }
+  
+  .in{
+    background: #3C2313;
+    color:#fff;
+    width: 340px;
+    height: 40px;
+    font-size: 9px;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .btn{
+    background: #8A8787;
+    color:#fff;
+    width: 110px;
+    height: 34px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 31px;
+  }
+  .btns__wrapper{
+    text-align: center;
+  }
+  .send__botton{
+    background: #F0A83E;
+   }
+  
+  /* footer */
+  
+  .subfooter{
+    height: 60px;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #F0A83E;
+    display: flex;
+  }
+  .subcription__subfooter{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    color: #fff;
+  }
+  .subcription__subfooter p{
+   display: flex;
+   padding: 0;
+   border: 0;
+   margin-top: 25px;
+   box-sizing: border-box; 
+  }
+  
+  /*Images subfooter*/
+  .subcription__subfooter img{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    margin: 10px 10px 10px 23px;
+    box-sizing: border-box; 
+  }
+  .email__subfooter{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    margin: 10px 43px 10px ;
+    box-sizing: border-box;  
+  }
+  
+  /*Logic bottoms subfooter*/
+  .email_footbtn{
+    background-color:#fff;
+    color:#A0A0A0;
+    width: 271px;
+    height: 40px;
+    font-size: 9px;
+    border-radius: 15px;
+    border: none;  
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  .subcription_subfooterbtn{
+    background-color: #3C2313;
+    color:#fff;
+    width: 70px;
+    height: 34px;
+    font-size: 9px;
+    border-radius: 15px;
+    border: none;  
+    display: inline-block; 
+    box-sizing: border-box;
+  }
+  /* Main footer, topics( location, phone, email)
+  stlyles*/
+  .topics__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2313;
+    color:#fff;
+    width: 1024px;
+    height: 284px;
+    margin: 0 auto;
+  }
+  .ul__topics__footer{
+    flex-direction: column;
+    margin-left: 70px;
+  }
+  .ul__topics__footer li {
+  display: flex;
+  margin: 10px 0; 
+  }
+  .ul__topics__footer span {
+    width: 66px;
+    height: 66px;
+    background-repeat: no-repeat;
+    display: block; 
+  }
+  .ul__topics__footer b {
+    margin-left: 25px;
+  }
+  .ul__topics__footer h2{
+    color: #fff;
+    font-size: 20px;
+  }
+  .ul__topics__footer p{
+    color: #A0A0A0;
+    font-size: 10px;
+  }
+  .topics__footer img{
+    max-width: 166px;
+    height: 26px;
+    margin-right: 70px;
+  }
+  .location{
+    background-image: url("../images/Icono_Localidad.png");
+  }
+  .phone{
+    background-image: url("../images/Icono_Telefono.png");
+  }
+  .email{
+    background-image: url("../images/Icono_Correo_Electronico.png");
+  }
+  .reserve_footer{
+    width: 1024px;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+  }
+  .reserve_footer p{
+    display: inline-block;
+    margin:4px 419px;
+    font-size: 10px;
+  }
+  

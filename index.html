@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/sytles.css">
+  <link rel="stylesheet" href="./css/desktop.css">
+  <link rel="stylesheet" href="./css/mobile.css" media="(max-width: 414px)">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <title>Front Cat & Dog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">  <title>Front Cat & Dog</title>
 </head>
 
 <body>
@@ -21,23 +21,17 @@
         <li>
           <a href="">Español</a><img src="./images/down.png">
         </li>
-        <!-- tag form & select              
-            <form class="menu-selection" action="Language.html">
-              <select name="language" id="language">
-                <option value="Español">Español</option>
-                <option value="English">English</option>
-              </select>
-            </form> -->
+        <li>
+          <a href="">ARG$</a><img src="./images/down.png">
         </li>
-        <li><a href="">ARG$</a><img src="./images/down.png"></li>
       </ul>
     </div>
-  
+
     <nav class="header__nav">
       <img src="./images/Logo.png" alt="Logo_Pets">
 
       <!--  Menu Sub categorias imagenes y texto-->
-  
+
       <ul>
         <li><a href=""><img src="./images/pawprint_S.png" class="small-pawprint">Categorías</a></li>
         <li><a href=""><img src="./images/pawprint_S.png" class="small-pawprint">Pets</a></li>
@@ -53,7 +47,7 @@
       <form action="" class="form__nav">
         <input type="text" placeholder="¡Es un placer tenerte aquí!" class="form__input">
         <p class="form__title">¡Comederos en descuento!</p>
-        <input type="button" value="COMEDEROS" class="form__btn">
+        <input type="button" value="comederos" class="form__btn">
       </form>
     </section>
     <section class="product">
@@ -96,23 +90,21 @@
           <input type="button" value="Resetear" class="reset__botton btn">
           <input type="button" value="Enviar" class="send__botton btn">
         </div>
-      </form>
-    </section>
+      </section>
+    </form>
   </main>
   <footer>
     <div class="subfooter">
       <div class="subcription__subfooter">
-        <img src="/pet/images/enviar-correo 1.png" alt="Email">
+        <img src="./images/enviar-correo 1.png" alt="Email">
         <b>
           <p>Suscríbete para más novedades</p>
         </b>
       </div>
-      <div class="email__subfooter">
-        <form action="">
-          <input type="email" placeholder="Ingresá tu correo electronico"class="email_footbtn">
-          <input type="button" value="Suscribirme" class="subcription_subfooterbtn">
-        </form>
-      </div>
+      <form action="" class="email__subfooter">
+        <input type="email" placeholder="Ingresá tu correo electronico" class="email_footbtn">
+        <input type="button" value="Suscribirme" class="subcription_subfooterbtn">
+      </form>
     </div>
     <section class="topics__footer">
       <ul class="ul__topics__footer">
@@ -139,15 +131,16 @@
         </li>
       </ul>
 
-      <img src="/pet/images/Logo_footer.png" alt="logoPets__footer">
+      <img src="./images/Logo_footer.png" alt="logoPets__footer">
     </section>
     <section class="reserve_footer">
       <div>
-      <strong>
-        <p>Todos los derechos reservados Front End</p>
-      </strong>
-    </div>
+        <strong>
+          <p>Todos los derechos reservados Front End</p>
+        </strong>
+      </div>
     </section>
   </footer>
 </body>
+
 </html>

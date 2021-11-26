@@ -1,0 +1,56 @@
+
+.border{
+    border: 1px solid red;
+}
+
+.discount {
+    display: none;
+}
+
+.header__nav ul {
+    display: none;
+}
+
+.hamburger__menu {
+    display: block;
+    padding-right: 100px;
+}
+.header__nav::after{
+    content: url('/Project/images/hamburger_menu.png');
+}
+.center-nav{
+    background-image:url("/Project/images/Full-image.png")
+}
+.btn{
+    width: 168px;
+    padding: 0 45px;
+}
+
+.subfooter {    
+    height: inherit;   
+    display: block;
+}
+.subcription__subfooter p {
+    font-size: 20px;
+}
+.subcription__subfooter{  
+    width: 100%;
+}
+.email__subfooter{  
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+.email_footbtn{
+    width: 250px;
+}
+.subcription_subfooterbtn{
+    font-size: 15px;
+    width: 100px;
+}
+.topics__footer{
+    flex-direction: column-reverse;
+}
+.reserve_footer{
+    font-size: 13px;      
+}
